@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1> Teste de titulo </h1> 
-    <Tutorial/>
+    <h1> hello world</h1> 
   </div>
 </template>
 
