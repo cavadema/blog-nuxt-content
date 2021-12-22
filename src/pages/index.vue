@@ -1,6 +1,7 @@
+
 <template>
   <div>
-    <h1> Bem vindo ao blognuxt</h1>
+    <h1> vivareforma </h1>
     <div
       v-for="(article, index) in articles" :key="index">
       <nuxt-link :to="`${article.slug}`">
@@ -18,7 +19,8 @@ export default {
     const articles = await $content().fetch()
     console.log(articles)
     return {articles}
-  }
+  },
+
 }
 </script>
 
